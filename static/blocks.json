@@ -1,0 +1,15 @@
+[
+    {
+      "name": "Diamond Block",
+      "image": "https://example.com/images/diamond_block.png"
+    },
+    {
+      "name": "Redstone Block",
+      "image": "https://example.com/images/redstone_block.png"
+    },
+    {
+      "name": "Gold Block",
+      "image": "https://example.com/images/gold_block.png"
+    }
+  ]
+  

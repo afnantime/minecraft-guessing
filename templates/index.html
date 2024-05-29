@@ -65,38 +65,54 @@
         <input id="blockInput" placeholder="Type or select block name..."
           class="w-full p-3 rounded-lg bg-zinc-700 text-white placeholder-zinc-400">
         <div id="dropdownContent" class="dropdown-content">
-          <div onclick="selectBlock('Diamond Block')">
-            <img src="https://example.com/images/diamond_block.png" class="block-image" alt="Diamond Block"> Diamond Block
-          </div>
-          <div onclick="selectBlock('Redstone Block')">
-            <img src="https://example.com/images/redstone_block.png" class="block-image" alt="Redstone Block"> Redstone Block
-          </div>
-          <div onclick="selectBlock('Gold Block')">
-            <img src="https://example.com/images/gold_block.png" class="block-image" alt="Gold Block"> Gold Block
-          </div>
-          <!-- Add more blocks here -->
+          <!-- JavaScript will populate this -->
         </div>
       </div>
     </div>
   </div>
 
   <script>
+    document.addEventListener('DOMContentLoaded', function() {
+      fetch('blocks.json')
+        .then(response => response.json())
+        .then(data => {
+          let dropdownContent = document.getElementById('dropdownContent');
+          data.forEach(block => {
+            let blockDiv = document.createElement('div');
+            blockDiv.onclick = () => selectBlock(block.name);
+            blockDiv.innerHTML = `<img src="${block.image}" class="block-image" alt="${block.name}"> ${block.name}`;
+            dropdownContent.appendChild(blockDiv);
+          });
+        });
+
+      document.getElementById('blockInput').addEventListener('input', function() {
+        let filter = this.value.toLowerCase();
+        let blocks = document.getElementById('dropdownContent').getElementsByTagName('div');
+
+        for (let i = 0; i < blocks.length; i++) {
+          let txtValue = blocks[i].textContent || blocks[i].innerText;
+          if (txtValue.toLowerCase().indexOf(filter) > -1) {
+            blocks[i].style.display = "";
+          } else {
+            blocks[i].style.display = "none";
+          }
+        }
+        document.getElementById('dropdownContent').style.display = 'block';
+      });
+
+      document.addEventListener('click', function(event) {
+        var isClickInside = document.getElementById('blockInput').contains(event.target) ||
+          document.getElementById('dropdownContent').contains(event.target);
+        if (!isClickInside) {
+          document.getElementById('dropdownContent').style.display = 'none';
+        }
+      });
+    });
+
     function selectBlock(blockName) {
       document.getElementById('blockInput').value = blockName;
       document.getElementById('dropdownContent').style.display = 'none';
     }
-
-    document.getElementById('blockInput').addEventListener('input', function () {
-      document.getElementById('dropdownContent').style.display = 'block';
-    });
-
-    document.addEventListener('click', function (event) {
-      var isClickInside = document.getElementById('blockInput').contains(event.target) ||
-        document.getElementById('dropdownContent').contains(event.target);
-      if (!isClickInside) {
-        document.getElementById('dropdownContent').style.display = 'none';
-      }
-    });
   </script>
 </body>
 
