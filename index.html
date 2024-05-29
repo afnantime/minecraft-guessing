@@ -4,6 +4,47 @@
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    .custom-dropdown {
+      position: relative;
+      display: inline-block;
+      width: 100%;
+    }
+
+    .dropdown-content {
+      display: none;
+      position: absolute;
+      background-color: #f9f9f9;
+      min-width: 100%;
+      box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+      z-index: 1;
+      max-height: 200px;
+      overflow-y: auto;
+    }
+
+    .dropdown-content div {
+      color: black;
+      padding: 12px 16px;
+      text-decoration: none;
+      display: flex;
+      align-items: center;
+      cursor: pointer;
+    }
+
+    .dropdown-content div:hover {
+      background-color: #f1f1f1;
+    }
+
+    .custom-dropdown input:focus + .dropdown-content {
+      display: block;
+    }
+
+    .block-image {
+      width: 24px;
+      height: 24px;
+      margin-right: 10px;
+    }
+  </style>
 </head>
 
 <body>
@@ -19,22 +60,44 @@
         style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 100%; max-width: 500px; background: #ffffff2f; padding: 20px; border-radius: 8px; text-align: center;">
         <h1>Guess the Word Game</h1>
       </div>
-      <p class="text-zinc-400 mb-4">Type skin name in the input below</p>
-      <div class="relative">
-        <input list="blocks" placeholder="Type or select block name..."
+      <p class="text-zinc-400 mb-4">Select or type block name in the input below</p>
+      <div class="relative custom-dropdown">
+        <input id="blockInput" placeholder="Type or select block name..."
           class="w-full p-3 rounded-lg bg-zinc-700 text-white placeholder-zinc-400">
-        <datalist id="blocks">
-            <option value="Diamond Block">
-            <option value="Redstone Block">
-        </datalist>
-        <button class="absolute right-0 top-0 h-full px-4 bg-zinc-600 text-zinc-400 rounded-r-lg">
-          <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
-            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
-          </svg>
-        </button>
+        <div id="dropdownContent" class="dropdown-content">
+          <div onclick="selectBlock('Diamond Block')">
+            <img src="https://example.com/images/diamond_block.png" class="block-image" alt="Diamond Block"> Diamond Block
+          </div>
+          <div onclick="selectBlock('Redstone Block')">
+            <img src="https://example.com/images/redstone_block.png" class="block-image" alt="Redstone Block"> Redstone Block
+          </div>
+          <div onclick="selectBlock('Gold Block')">
+            <img src="https://example.com/images/gold_block.png" class="block-image" alt="Gold Block"> Gold Block
+          </div>
+          <!-- Add more blocks here -->
+        </div>
       </div>
     </div>
   </div>
+
+  <script>
+    function selectBlock(blockName) {
+      document.getElementById('blockInput').value = blockName;
+      document.getElementById('dropdownContent').style.display = 'none';
+    }
+
+    document.getElementById('blockInput').addEventListener('input', function () {
+      document.getElementById('dropdownContent').style.display = 'block';
+    });
+
+    document.addEventListener('click', function (event) {
+      var isClickInside = document.getElementById('blockInput').contains(event.target) ||
+        document.getElementById('dropdownContent').contains(event.target);
+      if (!isClickInside) {
+        document.getElementById('dropdownContent').style.display = 'none';
+      }
+    });
+  </script>
 </body>
 
 </html>
