@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -35,7 +36,7 @@
       background-color: #f1f1f1;
     }
 
-    .custom-dropdown input:focus + .dropdown-content {
+    .custom-dropdown input:focus+.dropdown-content {
       display: block;
     }
 
@@ -49,31 +50,57 @@
 
 <body>
   <div class="min-h-screen bg-cover bg-center flex flex-col items-center justify-center"
-    style="background-image: url('static/bg.jpg');">
+    style="background-image: url('static/img/bg.jpg');">
     <div class="text-center mb-8">
-      <h1 class="text-5xl font-bold text-red-600">Minecraft Guessing Game</h1>
+      <h1 class="text-5xl font-bold text-white" style="text-shadow: 2px 2px 0px #000, 3px 4px 0px #000;">Minecraft Guessing Game</h1>
     </div>
-    <div class="bg-zinc-800 bg-opacity-75 p-8 rounded-lg shadow-lg max-w-lg w-full">
+    <div class="bg-zinc-800 bg-opacity-75 p-8 rounded-lg shadow-lg max-w-lg w-full" style="border: 2px solid #ffffff;">
       <h2 class="text-3xl font-bold text-white mb-4">WHAT IS THE NAME OF THIS BLOCK?</h2>
-      <hr class="border-red-600 mb-4">
+      <hr class="border-red-600 mb-4" color="#00d5ff">
       <div class="text-2xl font-bold text-white mb-4"
         style="box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); width: 100%; max-width: 500px; background: #ffffff2f; padding: 20px; border-radius: 8px; text-align: center;">
-        <h1>Guess the Word Game</h1>
+        <h1>{{ initial_hint }}</h1>
       </div>
       <p class="text-zinc-400 mb-4">Select or type block name in the input below</p>
       <div class="relative custom-dropdown">
+        <button class="absolute right-0 top-0 h-full px-4 bg-zinc-600 text-zinc-400 rounded-r-lg" id="guess-button">
+          <svg class="h-5 w-5" fill="none" stroke="currentColor" viewBox="0 0 24 24" xmlns="http://www.w3.org/2000/svg">
+            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M19 9l-7 7-7-7"></path>
+          </svg>
+        </button>
         <input id="blockInput" placeholder="Type or select block name..."
           class="w-full p-3 rounded-lg bg-zinc-700 text-white placeholder-zinc-400">
         <div id="dropdownContent" class="dropdown-content">
           <!-- JavaScript will populate this -->
+          
         </div>
       </div>
+      <div id="result-message" class="text-white mt-4"></div>
     </div>
   </div>
 
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      fetch('blocks.json')
+    document.getElementById('guess-button').addEventListener('click', function() {
+      const blockNameInput = document.getElementById('blockInput').value;
+      const blockName = "{{ block_name }}"; // Use the block name passed from Flask
+      fetch('/guess', {
+        method: 'POST',
+        headers: {
+          'Content-Type': 'application/json'
+        },
+        body: JSON.stringify({ guess: blockNameInput, block_name: blockName })
+      })
+      .then(response => response.json())
+      .then(data => {
+        const resultMessage = document.getElementById('result-message');
+        resultMessage.textContent = data.message;
+        resultMessage.classList.toggle('text-green-500', data.success);
+        resultMessage.classList.toggle('text-red-500', !data.success);
+      });
+    });
+
+    document.addEventListener('DOMContentLoaded', function () {
+      fetch('/static/blocks.json') // Adjust the path to the blocks.json file
         .then(response => response.json())
         .then(data => {
           let dropdownContent = document.getElementById('dropdownContent');
@@ -85,7 +112,7 @@
           });
         });
 
-      document.getElementById('blockInput').addEventListener('input', function() {
+      document.getElementById('blockInput').addEventListener('input', function () {
         let filter = this.value.toLowerCase();
         let blocks = document.getElementById('dropdownContent').getElementsByTagName('div');
 
@@ -100,7 +127,7 @@
         document.getElementById('dropdownContent').style.display = 'block';
       });
 
-      document.addEventListener('click', function(event) {
+      document.addEventListener('click', function (event) {
         var isClickInside = document.getElementById('blockInput').contains(event.target) ||
           document.getElementById('dropdownContent').contains(event.target);
         if (!isClickInside) {
