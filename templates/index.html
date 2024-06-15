@@ -64,7 +64,7 @@
       <!-- Dropdown and Input -->
       <div class="relative custom-dropdown mb-4">
         <input id="blockInput" placeholder="Type or select block name..."
-          class="w-full p-3 rounded-lg bg-zinc-700 text-white placeholder-zinc-400 focus:ring-2 focus:ring-blue-500">
+          class="w-full p-3 rounded-lg bg-zinc-700 text-white placeholder-zinc-400 focus:ring-2 focus:ring-blue-500" autocomplete="off">
         <div id="dropdownContent" class="dropdown-content bg-white border border-gray-300 rounded-md shadow-lg mt-2">
         </div>
         <button class="absolute right-0 top-0 h-full px-4 bg-blue-600 text-white rounded-r-lg hover:bg-blue-700" id="guess-button">
@@ -102,6 +102,7 @@
         resultMessage.classList.remove('text-green-500', 'text-red-500', 'bg-green-100', 'bg-red-100');
         if (data.success) {
           resultMessage.classList.add('text-green-500', 'bg-green-100', 'border', 'border-green-400');
+          setTimeout(() => { location.replace(location.href); }, 2000); 
         } else {
           resultMessage.classList.add('text-red-500', 'bg-red-100', 'border', 'border-red-4000');
         }
@@ -189,6 +190,7 @@
   });
 });
 
+    let usedHints = ["{{ initial_hint }}"];
 
     function updateHintCounter() {
       const totalHints = {{ total_hints }};
@@ -196,7 +198,6 @@
       document.getElementById('hint-counter').textContent = `Hints available: ${totalHints - usedHintsCount}/${totalHints - 1}`;
     }
 
-    let usedHints = ["{{ initial_hint }}"];
     updateHintCounter();
   </script>
 </body>

@@ -1,6 +1,5 @@
 import json
 import random
-from fuzzywuzzy import fuzz
 from flask import Flask, render_template, request, jsonify
 
 app = Flask(__name__)
@@ -8,11 +7,6 @@ app = Flask(__name__)
 # Load blocks from blocks.json
 with open('static/blocks.json', 'r') as f:
     blocks = json.load(f)
-
-# Function to check the guess
-def check_guess(guess, block_name, threshold):
-    # Implement your fuzzy matching logic here
-    return guess.lower() == block_name.lower()  # Placeholder logic, adjust as needed
 
 @app.route('/')
 def index():
@@ -33,8 +27,7 @@ def guess():
     data = request.json
     guess = data.get('guess')
     block_name = data.get('block_name')
-    threshold = 80  # Set your fuzzy matching threshold here
-    if check_guess(guess, block_name, threshold):
+    if guess.lower() == block_name.lower():
         message = "Correct guess!"
         success = True
     else:

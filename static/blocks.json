@@ -1,7 +1,152 @@
 [
   {
+    "name": "Bedrock",
+    "image": "static/img/Bedrock.webp",
+    "hints": [
+      "The unbreakable barrier that forms the foundation of the world.",
+      "This block is found at the very bottom, where nothing can penetrate.",
+      "It defines the limits of the overworld and the Nether alike.",
+      "An immovable object, immune to all tools and explosions.",
+      "Its presence is a reminder of the boundaries of creation.",
+      "The bedrock layer is the ultimate floor of your world, unwavering and eternal."
+    ]
+  },
+  {
+    "name": "Beehive",
+    "image": "static/img/Beehive.webp",
+    "hints": [
+      "Crafted home for bees. Can be harvested for honey.",
+      "Crafted home for bees to thrive.",
+      "A block where honey comes alive.",
+      "Used to farm the honey pure.",
+      "It keeps the bees and helps them cure.",
+      "Crafted with planks and comb so neat, a beehive's work is truly sweet."
+    ]
+  },
+  {
+    "name": "Bell",
+    "image": "static/img/Bell.webp",
+    "hints": [
+      "Used to alert villagers of raids. Found in villages.",
+      "Rings out loud with a clanging sound.",
+      "A block that calls the villagers around.",
+      "Used in villages to warn of fright.",
+      "It rings the alarm both day and night.",
+      "Crafted with gold and iron strong, a bell's ring is never wrong."
+    ]
+  },
+  {
+    "name": "Blast Furnace",
+    "image": "static/img/Blast_Furnace.webp",
+    "hints": [
+      "Hot and quick, it smelts so fast.",
+      "A furnace that roars with a blazing heat.",
+      "A block that makes the ores complete.",
+      "Used in villages to smelt with speed.",
+      "It's crafted with iron, a builder's need.",
+      "Crafted with care, a furnace's might, a block that makes your ores ignite."
+    ]
+  },
+  {
+    "name": "Blue Ice",
+    "image": "static/img/Blue_Ice.webp",
+    "hints": [
+      "In icy realms where frost abounds.",
+      "Used to create ice paths and frosty structures.",
+      "Slippery and smooth, a skater's dream.",
+      "A chilly block by any stream.",
+      "It never melts, it never tires.",
+      "A slippery block that doesn't melt. Found in cold biomes.",
+      "A frosty gem that never expires."
+    ]
+  },
+  {
+    "name": "Bookshelf",
+    "image": "static/img/Bookshelf.webp",
+    "hints": [
+      "Stores written knowledge. Can be crafted into lecterns.",
+      "Words and wisdom fill its shelves, a library for every elf.",
+      "Crafted from wood, its pages hold, stories whispered, both new and old.",
+      "Librarians cherish its organized might, a beacon of knowledge, both day and night.",
+      "Transform it with a lectern's touch, and share your wisdom, oh so much.",
+      "Enchanting rooms embrace its lore, for powerful tools and so much more."
+    ]
+  },
+  {
+    "name": "Campfire",
+    "image": "static/img/Campfire.gif",
+    "hints": [
+      "Cooks food and emits light. Found in villages.",
+      "Warm and bright, it lights the night.",
+      "A block for cooking, a camping delight.",
+      "Used in villages and forest glades.",
+      "It cooks your food and light pervades.",
+      "Crafted from wood and coal combined, a campfire's glow is quite refined."
+    ]
+  },
+  {
+    "name": "Coal Block",
+    "image": "static/img/Block_of_Coal.webp",
+    "hints": [
+      "A block that's essential for smelting and cooking alike.",
+      "Its black surface speaks of the ancient plant life turned to fuel.",
+      "Found abundantly underground, this block is a miner's first find.",
+      "The source of warmth and industry, burning bright in the furnace.",
+      "Often overlooked, but vital for any industrious builder.",
+      "This block's humble appearance hides its crucial role in progress."
+    ]
+  },
+  {
+    "name": "Cobblestone",
+    "image": "static/img/Cobblestone.webp",
+    "hints": [
+      "Made from breaking down stone. A reliable building block.",
+      "Once common stone is broken and chipped.",
+      "This rough and ready block leaves builders equipped.",
+      "Strong and sturdy, it withstands the test.",
+      "Of creeper blasts and zombie's quest.",
+      "For castles grand or cozy homes, this block forever roams."
+    ]
+  },
+  {
+    "name": "Concrete",
+    "image": "static/img/Concrete.webp",
+    "hints": [
+      "Solid color block. Crafted from concrete powder.",
+      "Solid colors, bright and bold.",
+      "A block that's crafted, strong and cold.",
+      "Used in builds of modern style.",
+      "It adds a touch that's versatile.",
+      "Crafted from powder and water's mix, a concrete block is hard to fix."
+    ]
+  },
+  {
+    "name": "Concrete Powder",
+    "image": "static/img/Concrete_Powder.webp",
+    "hints": [
+      "Falls like sand. Turns into solid blocks when it comes into contact with water.",
+      "Soft and loose, it falls like sand.",
+      "A block that shifts from hand to hand.",
+      "Used in builds that change and flow.",
+      "It turns to concrete with water's glow.",
+      "Crafted from dye and gravel blend, a powder's journey finds its end."
+    ]
+  },
+  {
+    "name": "Copper Block",
+    "image": "static/img/Copper_Block.webp",
+    "hints": [
+      "A metallic block that changes color over time.",
+      "Used to create conductive structures.",
+      "Crafted from newly mined ores.",
+      "Found where the earth's veins run deep.",
+      "A block that ages like fine wine.",
+      "This block embodies the essence of time and transformation."
+    ]
+  },
+  {
     "name": "Diamond Block",
-    "image": "https://example.com/images/diamond_block.png",
+    "image": "static/img/Block_of_Diamond.webp",
     "hints": [
       "The hardest material found in Minecraft. It's shiny!",
       "It's the toughest block around, fit for a king's armor.",
@@ -13,7 +158,7 @@
   },
   {
     "name": "Dirt",
-    "image": "https://example.com/images/dirt.png",
+    "image": "static/img/Dirt.webp",
     "hints": [
       "The most common block. Great for planting things!",
       "The foundation of every build, from humble cottage to grand guild.",
@@ -24,83 +169,20 @@
     ]
   },
   {
-    "name": "Cobblestone",
-    "image": "https://example.com/images/cobblestone.png",
+    "name": "Emerald Block",
+    "image": "static/img/Block_of_Emerald.webp",
     "hints": [
-      "Made from breaking down stone. A reliable building block.",
-      "Once common stone is broken and chipped.",
-      "This rough and ready block leaves builders equipped.",
-      "Strong and sturdy, it withstands the test.",
-      "Of creeper blasts and zombie's quest.",
-      "For castles grand or cozy homes, this block forever roams."
+      "A block that embodies the wealth of villagers and their trade.",
+      "Its vibrant green hue is unmistakable, a trader's delight.",
+      "More precious than gold in the eyes of many, it sparkles with promise.",
+      "Found in the heart of mountains, guarded by stone and ore.",
+      "A beacon of prosperity, often used in ornate structures.",
+      "The preferred currency of wandering traders and wise merchants."
     ]
-  },
-  {
-    "name": "Redstone Block",
-    "image": "https://example.com/images/cobblestone.png",
-    "hints": [
-      "Powers amazing contraptions. Glows red!",
-      "It pulses with a vibrant hue, bringing contraptions to life anew.",
-      "Deeper than diamonds, this rock ignites, powering creations both day and night.",
-      "Follow its trails, a hidden map, to wondrous gadgets that never nap.",
-      "Redstone engineers, this is your prize, a spark of innovation that electrifies.",
-      "Though it glows red, it holds no rage, just the potential to turn a new page."
-    ]
-  },
-  {
-    "name": "Bookshelf",
-    "image": "https://example.com/images/cobblestone.png",
-    "hints": [
-      "Stores written knowledge. Can be crafted into lecterns.",
-      "Words and wisdom fill its shelves, a library for every elf.",
-      "Crafted from wood, its pages hold, stories whispered, both new and old.",
-      "Librarians cherish its organized might, a beacon of knowledge, both day and night.",
-      "Transform it with a lectern's touch, and share your wisdom, oh so much.",
-      "Enchanting rooms embrace its lore, for powerful tools and so much more."
-  ]
-  },
-  {
-    "name": "Netherrack",
-    "image": "https://example.com/images/cobblestone.png",
-    "hints": [
-      "In the fiery depths where the Nether lies.",
-      "This block burns eternal, a sight for sore eyes.",
-      "Its crimson hue lights the dark.",
-      "A blazing spark in a realm stark.",
-      "Mined by the brave, this block of flame.",
-      "A block found in the Nether. Burns forever!",
-      "Is the heart of the Nether, its fiery claim."
-  ]
-  },
-  {
-    "name": "Blue Ice",
-    "image": "https://example.com/images/cobblestone.png",
-    "hints": [
-      "In icy realms where frost abounds.",
-      "This block of blue, a slick ground.",
-      "Slippery and smooth, a skater's dream.",
-      "A chilly block by any stream.",
-      "It never melts, it never tires.",
-      "A slippery block that doesn't melt. Found in cold biomes.",
-      "A frosty gem that never expires."
-  ]
-  },
-  {
-    "name": "Soul Sand",
-    "image": "https://example.com/images/cobblestone.png",
-    "hints": [
-      "With every step, a slow descent.",
-      "In the Nether's grasp, where souls cry.",
-      "This sandy block makes you sigh.",
-      "A haunting block, a dark lament.",
-      "Souls swirl within its grim domain.",
-      "A block that slows you down. Found in the Nether.",
-      "A sandy trap, a realm of pain."
-  ]
   },
   {
     "name": "End Stone",
-    "image": "https://example.com/images/cobblestone.png",
+    "image": "static/img/End_Stone.webp",
     "hints": [
       "In the void where shadows creep.",
       "This block of stone, a fortress keep.",
@@ -109,37 +191,205 @@
       "In the dragon's realm, where it's found.",
       "A block found in the End. Resistant to explosions.",
       "A block of strength, unyielding ground."
-  ]
+    ]
   },
   {
     "name": "Glowstone",
-    "image": "https://example.com/images/cobblestone.png",
+    "image": "static/img/Glowstone.webp",
     "hints": [
       "This block shines without a care.",
-      "In the Nether's glow, where light is rare.",
+      "Found hanging from the ceiling of fiery caves.",
       "A beacon bright in the dark.",
-      "A radiant gem, a fiery spark.",
+      "A luminous block from the Nether, lighting up the dark.",
       "Crafted by the brave, who dare to mine.",
       "A block that glows brightly. Found in the Nether.",
       "A block of light, a treasure divine."
-  ]
+    ]
+  },
+  {
+    "name": "Gold Block",
+    "image": "static/img/Block_of_Gold.webp",
+    "hints": [
+      "A block that glistens with the glow of riches untold.",
+      "The soft metal that holds a place in the hearts of the wealthy.",
+      "Often found in the company of ancient, dusty pyramids and sunken ships.",
+      "Its malleability is legendary, perfect for gilded tools.",
+      "From the depths of the earth to the heights of the mountains, it shines.",
+      "The currency of the nether's piglins, highly prized and sought after."
+    ]
+  },
+  {
+    "name": "Hay Bale",
+    "image": "static/img/Hay_Bale.webp",
+    "hints": [
+      "Crafted from wheat. Often found in villages.",
+      "Golden stack from farmer's yield.",
+      "Used in stables, barns, and fields.",
+      "Crafted from wheat, it's piled high.",
+      "A sight that catches every eye.",
+      "In villages, it stands so tall, a block that signifies a bountiful haul."
+    ]
+  },
+  {
+    "name": "Honey Block",
+    "image": "static/img/Honey_Block.webp",
+    "hints": [
+      "A sticky, golden block produced by bees.",
+      "Used to create traps and slow movement.",
+      "Crafted from the sweet nectar of flowers.",
+      "Found in buzzing bee nests.",
+      "A block that captures the essence of summer.",
+      "This block is sweet and sticky, like nature's candy."
+    ]
+  },
+  {
+    "name": "Iron Block",
+    "image": "static/img/Block_of_Iron.webp",
+    "hints": [
+      "A symbol of strength and durability, used in many a sturdy build.",
+      "Essential for crafting the tools of progress, this block is vital.",
+      "Found in the depths, where miners toil for its precious ores.",
+      "The backbone of industrial machinery and defenses alike.",
+      "This block's metallic sheen speaks of unyielding power.",
+      "The golems' choice for body armor, a testament to its resilience."
+    ]
+  },
+  {
+    "name": "Lantern",
+    "image": "static/img/Lantern.webp",
+    "hints": [
+      
+      "A light that glows with a gentle hue.",
+      "A block that shines both bright and true.",
+      "Used in villages to light the way.",
+      "It brightens the night and turns it to day.",
+      "Crafted with iron and light so grand, a lantern's glow is quite in demand."
+    ]
+  },
+  {
+    "name": "Lapis Lazuli Block",
+    "image": "static/img/Block_of_Lapis_Lazuli.webp",
+    "hints": [
+      "Crafted from the coldest parts of the world.",
+      "This block's azure beauty is more than skin deep, holding magical potential.",
+      "Found near the depths, where it mingles with other precious stones.",
+      "Its rich color has inspired many a decorative and enchanting endeavor.",
+      "A favorite of those who dabble in spells and arcane rituals.",
+      "Sought by adventurers for its enchanting properties and striking appearance."
+    ]
+  },
+  {
+    "name": "Netherite Block",
+    "image": "static/img/Block_of_Netherite.webp",
+    "hints": [
+      "A block forged in the fires of the Nether.",
+      "Stronger than diamond, it withstands the test of time.",
+      "Crafted from ancient debris, it's the pinnacle of power.",
+      "Resistant to fire and lava, it's indestructible.",
+      "The ultimate block for the bravest adventurers.",
+      "This block represents the height of strength and resilience."
+    ]
+  },
+  {
+    "name": "Netherrack",
+    "image": "static/img/Netherrack.webp",
+    "hints": [
+      "In the fiery depths where the Nether lies.",
+      "This block burns eternal, a sight for sore eyes.",
+      "Its crimson hue lights the dark.",
+      "A blazing spark in a realm stark.",
+      "Mined by the brave, this block of flame.",
+      "A block found in the Nether. Burns forever!",
+      "Is the heart of the Nether, its fiery claim."
+    ]
   },
   {
     "name": "Obsidian",
-    "image": "https://example.com/images/cobblestone.png",
+    "image": "static/img/Obsidian.webp",
     "hints": [
-      "In the depths where lava flows.",
-      "This block of black, a fortress grows.",
       "Hard as diamond, strong as steel.",
-      "A miner's dream, a wizard's seal.",
       "Water meets lava, a hissing sound.",
       "A block that's hard to break. Created by pouring water on lava.",
-      "Obsidian forms on solid ground."
-  ]
+      "Formed in the fiery depths where water meets lava, this block is nearly unbreakable.",
+      "Its dark, glassy surface is the gateway to other dimensions.",
+      "A shield against the explosive fury of creepers and other threats."
+    ]
+  },
+  {
+    "name": "Prismarine",
+    "image": "static/img/Prismarine.webp",
+    "hints": [
+      "A mystical block from the depths of the ocean.",
+      "Used in the construction of underwater temples.",
+      "Crafted from shards found in the sea.",
+      "Found guarding the secrets of ancient civilizations.",
+      "A block that changes color like the ocean waves.",
+      "This block holds the mysteries of the deep."
+    ]
+  },
+  {
+    "name": "Purpur Block",
+    "image": "static/img/Purpur_Block.webp",
+    "hints": [
+      "A vibrant purple from the End.",
+      "Used in the construction of mysterious End cities.",
+      "Crafted from the essence of chorus plants.",
+      "Found where shulkers guard their secrets.",
+      "A block that embodies the strangeness of the End.",
+      "This block pulses with an alien energy."
+    ]
+  },
+  {
+    "name": "Quartz Block",
+    "image": "static/img/Block_of_Quartz.webp",
+    "hints": [
+      "A pristine white block, favored in elegant and modern builds.",
+      "Found in the Nether, where danger and beauty intertwine.",
+      "Its smooth surface is perfect for sleek, stylish constructions.",
+      "The choice of many builders for its clean, refined look.",
+      "Often used in conjunction with other precious materials for a luxurious touch.",
+      "This block is a testament to the beauty that can be found in the harshest places."
+    ]
+  },
+  {
+    "name": "Redstone Block",
+    "image": "static/img/Block_of_Redstone.webp",
+    "hints": [
+      "A block that pulses with energy, powering contraptions far and wide.",
+      "The lifeblood of machinery and automation, glowing with potential.",
+      "Found deep below, its red glow is unmistakable in the dark.",
+      "A staple for engineers and inventors, sparking creativity and innovation.",
+      "Its conductive properties make it invaluable for complex builds.",
+      "This block is the key to many hidden mechanisms and clever designs."
+    ]
+  },
+  {
+    "name": "Scaffolding",
+    "image": "static/img/Scaffolding.webp",
+    "hints": [
+      "A block for builders, quick and light.",
+      "A block that reaches to the skies.",
+      "Temporary block for building. Can be climbed like ladders.",
+      "Used to climb and build with ease.",
+      "It's crafted from bamboo trees.",
+      "Crafted with care, a scaffold's grace, a block that helps you reach the place."
+    ]
+  },
+  {
+    "name": "Sea Lantern",
+    "image": "static/img/Sea_Lantern.webp",
+    "hints": [
+      "A block that glows with the light of the sea.",
+      "Used to illuminate underwater structures.",
+      "Crafted from crystals found in ocean monuments.",
+      "Found where guardians protect ancient ruins.",
+      "A block that brings light to the darkest depths.",
+      "This block captures the essence of the ocean's glow."
+    ]
   },
   {
     "name": "Sea Pickle",
-    "image": "https://example.com/images/cobblestone.png",
+    "image": "static/img/Sea_Pickle.webp",
     "hints": [
       "A block that emits light underwater. Found in warm oceans.",
       "In the ocean's depths, where corals sway.",
@@ -148,11 +398,48 @@
       "A glowing gem, a light so free.",
       "Warm oceans hold this treasure dear.",
       "A pickle's light, a sight so clear."
-  ]
+    ]
+  },
+  {
+    "name": "Shroomlight",
+    "image": "static/img/Shroomlight.webp",
+    "hints": [
+      "A glowing block from the Nether's fungi forests.",
+      "Used to light up eerie, otherworldly landscapes.",
+      "Crafted from the heart of giant mushrooms.",
+      "Found where crimson and warped fungi grow.",
+      "A block that glows with the light of strange biomes.",
+      "This block captures the essence of fungal illumination."
+    ]
+  },
+  {
+    "name": "Smoker",
+    "image": "static/img/Smoker.webp",
+    "hints": [
+      "Slow and steady, it cooks with care.",
+      "A furnace that smokes with a gentle air.",
+      "A block that cooks the food so rare.",
+      "Used in villages to cook with grace.",
+      "It's crafted with wood, a chef's embrace.",
+      "Crafted with care, a smoker's delight, a block that cooks your food just right."
+    ]
+  },
+  {
+    "name": "Soul Sand",
+    "image": "static/img/Soul_Sand.webp",
+    "hints": [
+      "With every step, a slow descent.",
+      "In the Nether's grasp, where souls cry.",
+      "This sandy block makes you sigh.",
+      "A haunting block, a dark lament.",
+      "Souls swirl within its grim domain.",
+      "A block that slows you down. Found in the Nether.",
+      "A sandy trap, a realm of pain."
+    ]
   },
   {
     "name": "Sponge",
-    "image": "https://example.com/images/cobblestone.png",
+    "image": "static/img/Wet_Sponge.webp",
     "hints": [
       "In the ocean's depths, where guardians roam.",
       "This block of sponge makes water its home.",
@@ -161,11 +448,23 @@
       "Ocean monuments guard this prize.",
       "A sponge that dries, a water-wise.",
       "A block that soaks up water. Found in ocean monuments."
-  ]
+    ]
+  },
+  {
+    "name": "Terracotta",
+    "image": "static/img/Terracotta.webp",
+    "hints": [
+      "Colored clay block. Found in mesa biomes.",
+      "Colored clay from mesa's ground.",
+      "A block with hues that do astound.",
+      "Used in builds both old and new.",
+      "It adds a color that's tried and true.",
+      "Found in biomes of red and gold."
+    ]
   },
   {
     "name": "Torch",
-    "image": "https://example.com/images/cobblestone.png",
+    "image": "static/img/Torch.webp",
     "hints": [
       "In the dark of night, where shadows loom.",
       "This block of light dispels the gloom.",
@@ -174,138 +473,6 @@
       "Monsters flee from its warm embrace.",
       "A torch's light, a safe space.",
       "A block that emits light. Can be placed on walls."
-  ]
-  },
-  {
-    "name": "Concrete",
-    "image": "https://example.com/images/cobblestone.png",
-    "hints": [
-      "Solid color block. Crafted from concrete powder.",
-      "Solid colors, bright and bold.",
-      "A block that's crafted, strong and cold.",
-      "Used in builds of modern style.",
-      "It adds a touch that's versatile.",
-      "Crafted from powder and water's mix, a concrete block is hard to fix."
-  ]
-  },
-  {
-    "name": "Concrete Powder",
-    "image": "https://example.com/images/cobblestone.png",
-    "hints": [
-      "Falls like sand. Turns into solid blocks when it comes into contact with water.",
-      "Soft and loose, it falls like sand.",
-      "A block that shifts from hand to hand.",
-      "Used in builds that change and flow.",
-      "It turns to concrete with water's glow.",
-      "Crafted from dye and gravel blend, a powder's journey finds its end."
-  ]
-  },
-  {
-    "name": "Terracotta",
-    "image": "https://example.com/images/cobblestone.png",
-    "hints": [
-      "Colored clay block. Found in mesa biomes.",
-      "Colored clay from mesa's ground.",
-      "A block with hues that do astound.",
-      "Used in builds both old and new.",
-      "It adds a color that's tried and true.",
-      "Found in biomes of red and gold, a terracotta's story is old."
-  ]
-  },
-  {
-    "name": "Beehive",
-    "image": "https://example.com/images/cobblestone.png",
-    "hints": [
-      "Crafted home for bees. Can be harvested for honey.",
-      "Crafted home for bees to thrive.",
-      "A block where honey comes alive.",
-      "Used to farm the honey pure.",
-      "It keeps the bees and helps them cure.",
-      "Crafted with planks and comb so neat, a beehive's work is truly sweet."
-  ]
-  },
-  {
-    "name": "Bell",
-    "image": "https://example.com/images/cobblestone.png",
-    "hints": [
-      "Used to alert villagers of raids. Found in villages.",
-      "Rings out loud with a clanging sound.",
-      "A block that calls the villagers around.",
-      "Used in villages to warn of fright.",
-      "It rings the alarm both day and night.",
-      "Crafted with gold and iron strong, a bell's ring is never wrong."
-  ]
-  },
-  {
-    "name": "Campfire",
-    "image": "https://example.com/images/cobblestone.png",
-    "hints": [
-      "Cooks food and emits light. Found in villages.",
-      "Warm and bright, it lights the night.",
-      "A block for cooking, a camping delight.",
-      "Used in villages and forest glades.",
-      "It cooks your food and light pervades.",
-      "Crafted from wood and coal combined, a campfire's glow is quite refined."
-  ]
-  },
-  {
-    "name": "Scaffolding",
-    "image": "https://example.com/images/cobblestone.png",
-    "hints": [
-      "A block for builders, quick and light.",
-      "A block that reaches to the skies.",
-      "Temporary block for building. Can be climbed like ladders.",
-      "Used to climb and build with ease.",
-      "It's crafted from bamboo trees.",
-      "Crafted with care, a scaffold's grace, a block that helps you reach the place."
-  ]
-  },
-  {
-    "name": "Hay Bale",
-    "image": "https://example.com/images/cobblestone.png",
-    "hints": [
-      "Crafted from wheat. Often found in villages.",
-      "Golden stack from farmer's yield.",
-      "Used in stables, barns, and fields.",
-      "Crafted from wheat, it's piled high.",
-      "A sight that catches every eye.",
-      "In villages, it stands so tall, a block that signifies a bountiful haul."
-  ]
-  },
-  {
-    "name": "Lantern",
-    "image": "https://example.com/images/cobblestone.png",
-    "hints": [
-      "It shares the knowledge and dispels the glooms.",
-      "A light that glows with a gentle hue.",
-      "A block that shines both bright and true.",
-      "Used in villages to light the way.",
-      "It brightens the night and turns it to day.",
-      "Crafted with iron and light so grand, a lantern's glow is quite in demand."
-  ]
-  },
-  {
-    "name": "Blast Furnace",
-    "image": "https://example.com/images/cobblestone.png",
-    "hints": [
-      "Hot and quick, it smelts so fast.",
-      "A furnace that roars with a blazing heat.",
-      "A block that makes the ores complete.",
-      "Used in villages to smelt with speed.",
-      "It's crafted with iron, a builder's need.",
-      "Crafted with care, a furnace's might, a block that makes your ores ignite."
-  ]
-  },
-  {
-    "name": "Smoker",
-    "image": "https://example.com/images/cobblestone.png",
-    "hints": [
-      "Slow and steady, it cooks with care.",
-      "A furnace that smokes with a gentle air.",
-      "A block that cooks the food so rare.",
-      "Used in villages to cook with grace.",
-      "It's crafted with wood, a chef's embrace.",
-      "Crafted with care, a smoker's delight, a block that cooks your food just right."
-  ]
+    ]
   }
 ]
