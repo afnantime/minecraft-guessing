@@ -1,7 +1,7 @@
 [
   {
     "name": "Bedrock",
-    "image": "static/img/Bedrock.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Bedrock.webp",
     "hints": [
       "The unbreakable barrier that forms the foundation of the world.",
       "This block is found at the very bottom, where nothing can penetrate.",
@@ -13,7 +13,7 @@
   },
   {
     "name": "Beehive",
-    "image": "static/img/Beehive.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Beehive.webp",
     "hints": [
       "Crafted home for bees. Can be harvested for honey.",
       "Crafted home for bees to thrive.",
@@ -25,7 +25,7 @@
   },
   {
     "name": "Bell",
-    "image": "static/img/Bell.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Bell.webp",
     "hints": [
       "Used to alert villagers of raids. Found in villages.",
       "Rings out loud with a clanging sound.",
@@ -37,7 +37,7 @@
   },
   {
     "name": "Blast Furnace",
-    "image": "static/img/Blast_Furnace.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Blast_Furnace.webp",
     "hints": [
       "Hot and quick, it smelts so fast.",
       "A furnace that roars with a blazing heat.",
@@ -49,7 +49,7 @@
   },
   {
     "name": "Blue Ice",
-    "image": "static/img/Blue_Ice.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Blue_Ice.webp",
     "hints": [
       "In icy realms where frost abounds.",
       "Used to create ice paths and frosty structures.",
@@ -62,7 +62,7 @@
   },
   {
     "name": "Bookshelf",
-    "image": "static/img/Bookshelf.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Bookshelf.webp",
     "hints": [
       "Stores written knowledge. Can be crafted into lecterns.",
       "Words and wisdom fill its shelves, a library for every elf.",
@@ -74,7 +74,7 @@
   },
   {
     "name": "Campfire",
-    "image": "static/img/Campfire.gif",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Campfire.gif",
     "hints": [
       "Cooks food and emits light. Found in villages.",
       "Warm and bright, it lights the night.",
@@ -86,7 +86,7 @@
   },
   {
     "name": "Coal Block",
-    "image": "static/img/Block_of_Coal.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Block_of_Coal.webp",
     "hints": [
       "A block that's essential for smelting and cooking alike.",
       "Its black surface speaks of the ancient plant life turned to fuel.",
@@ -98,7 +98,7 @@
   },
   {
     "name": "Cobblestone",
-    "image": "static/img/Cobblestone.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Cobblestone.webp",
     "hints": [
       "Made from breaking down stone. A reliable building block.",
       "Once common stone is broken and chipped.",
@@ -110,7 +110,7 @@
   },
   {
     "name": "Concrete",
-    "image": "static/img/Concrete.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Concrete.webp",
     "hints": [
       "Solid color block. Crafted from concrete powder.",
       "Solid colors, bright and bold.",
@@ -122,7 +122,7 @@
   },
   {
     "name": "Concrete Powder",
-    "image": "static/img/Concrete_Powder.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Concrete_Powder.webp",
     "hints": [
       "Falls like sand. Turns into solid blocks when it comes into contact with water.",
       "Soft and loose, it falls like sand.",
@@ -134,7 +134,7 @@
   },
   {
     "name": "Copper Block",
-    "image": "static/img/Copper_Block.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Copper_Block.webp",
     "hints": [
       "A metallic block that changes color over time.",
       "Used to create conductive structures.",
@@ -146,7 +146,7 @@
   },
   {
     "name": "Diamond Block",
-    "image": "static/img/Block_of_Diamond.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Block_of_Diamond.webp",
     "hints": [
       "The hardest material found in Minecraft. It's shiny!",
       "It's the toughest block around, fit for a king's armor.",
@@ -158,7 +158,7 @@
   },
   {
     "name": "Dirt",
-    "image": "static/img/Dirt.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Dirt.webp",
     "hints": [
       "The most common block. Great for planting things!",
       "The foundation of every build, from humble cottage to grand guild.",
@@ -170,7 +170,7 @@
   },
   {
     "name": "Emerald Block",
-    "image": "static/img/Block_of_Emerald.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Block_of_Emerald.webp",
     "hints": [
       "A block that embodies the wealth of villagers and their trade.",
       "Its vibrant green hue is unmistakable, a trader's delight.",
@@ -182,7 +182,7 @@
   },
   {
     "name": "End Stone",
-    "image": "static/img/End_Stone.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/End_Stone.webp",
     "hints": [
       "In the void where shadows creep.",
       "This block of stone, a fortress keep.",
@@ -195,7 +195,7 @@
   },
   {
     "name": "Glowstone",
-    "image": "static/img/Glowstone.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Glowstone.webp",
     "hints": [
       "This block shines without a care.",
       "Found hanging from the ceiling of fiery caves.",
@@ -208,7 +208,7 @@
   },
   {
     "name": "Gold Block",
-    "image": "static/img/Block_of_Gold.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Block_of_Gold.webp",
     "hints": [
       "A block that glistens with the glow of riches untold.",
       "The soft metal that holds a place in the hearts of the wealthy.",
@@ -220,7 +220,7 @@
   },
   {
     "name": "Hay Bale",
-    "image": "static/img/Hay_Bale.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Hay_Bale.webp",
     "hints": [
       "Crafted from wheat. Often found in villages.",
       "Golden stack from farmer's yield.",
@@ -232,7 +232,7 @@
   },
   {
     "name": "Honey Block",
-    "image": "static/img/Honey_Block.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Honey_Block.webp",
     "hints": [
       "A sticky, golden block produced by bees.",
       "Used to create traps and slow movement.",
@@ -244,7 +244,7 @@
   },
   {
     "name": "Iron Block",
-    "image": "static/img/Block_of_Iron.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Block_of_Iron.webp",
     "hints": [
       "A symbol of strength and durability, used in many a sturdy build.",
       "Essential for crafting the tools of progress, this block is vital.",
@@ -256,7 +256,7 @@
   },
   {
     "name": "Lantern",
-    "image": "static/img/Lantern.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Lantern.webp",
     "hints": [
       
       "A light that glows with a gentle hue.",
@@ -268,7 +268,7 @@
   },
   {
     "name": "Lapis Lazuli Block",
-    "image": "static/img/Block_of_Lapis_Lazuli.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Block_of_Lapis_Lazuli.webp",
     "hints": [
       "Crafted from the coldest parts of the world.",
       "This block's azure beauty is more than skin deep, holding magical potential.",
@@ -280,7 +280,7 @@
   },
   {
     "name": "Netherite Block",
-    "image": "static/img/Block_of_Netherite.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Block_of_Netherite.webp",
     "hints": [
       "A block forged in the fires of the Nether.",
       "Stronger than diamond, it withstands the test of time.",
@@ -292,7 +292,7 @@
   },
   {
     "name": "Netherrack",
-    "image": "static/img/Netherrack.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Netherrack.webp",
     "hints": [
       "In the fiery depths where the Nether lies.",
       "This block burns eternal, a sight for sore eyes.",
@@ -305,7 +305,7 @@
   },
   {
     "name": "Obsidian",
-    "image": "static/img/Obsidian.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Obsidian.webp",
     "hints": [
       "Hard as diamond, strong as steel.",
       "Water meets lava, a hissing sound.",
@@ -317,7 +317,7 @@
   },
   {
     "name": "Prismarine",
-    "image": "static/img/Prismarine.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Prismarine.webp",
     "hints": [
       "A mystical block from the depths of the ocean.",
       "Used in the construction of underwater temples.",
@@ -329,7 +329,7 @@
   },
   {
     "name": "Purpur Block",
-    "image": "static/img/Purpur_Block.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Purpur_Block.webp",
     "hints": [
       "A vibrant purple from the End.",
       "Used in the construction of mysterious End cities.",
@@ -341,7 +341,7 @@
   },
   {
     "name": "Quartz Block",
-    "image": "static/img/Block_of_Quartz.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Block_of_Quartz.webp",
     "hints": [
       "A pristine white block, favored in elegant and modern builds.",
       "Found in the Nether, where danger and beauty intertwine.",
@@ -353,7 +353,7 @@
   },
   {
     "name": "Redstone Block",
-    "image": "static/img/Block_of_Redstone.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Block_of_Redstone.webp",
     "hints": [
       "A block that pulses with energy, powering contraptions far and wide.",
       "The lifeblood of machinery and automation, glowing with potential.",
@@ -365,7 +365,7 @@
   },
   {
     "name": "Scaffolding",
-    "image": "static/img/Scaffolding.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Scaffolding.webp",
     "hints": [
       "A block for builders, quick and light.",
       "A block that reaches to the skies.",
@@ -377,7 +377,7 @@
   },
   {
     "name": "Sea Lantern",
-    "image": "static/img/Sea_Lantern.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Sea_Lantern.webp",
     "hints": [
       "A block that glows with the light of the sea.",
       "Used to illuminate underwater structures.",
@@ -389,7 +389,7 @@
   },
   {
     "name": "Sea Pickle",
-    "image": "static/img/Sea_Pickle.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Sea_Pickle.webp",
     "hints": [
       "A block that emits light underwater. Found in warm oceans.",
       "In the ocean's depths, where corals sway.",
@@ -402,7 +402,7 @@
   },
   {
     "name": "Shroomlight",
-    "image": "static/img/Shroomlight.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Shroomlight.webp",
     "hints": [
       "A glowing block from the Nether's fungi forests.",
       "Used to light up eerie, otherworldly landscapes.",
@@ -414,7 +414,7 @@
   },
   {
     "name": "Smoker",
-    "image": "static/img/Smoker.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Smoker.webp",
     "hints": [
       "Slow and steady, it cooks with care.",
       "A furnace that smokes with a gentle air.",
@@ -426,7 +426,7 @@
   },
   {
     "name": "Soul Sand",
-    "image": "static/img/Soul_Sand.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Soul_Sand.webp",
     "hints": [
       "With every step, a slow descent.",
       "In the Nether's grasp, where souls cry.",
@@ -439,7 +439,7 @@
   },
   {
     "name": "Sponge",
-    "image": "static/img/Wet_Sponge.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Wet_Sponge.webp",
     "hints": [
       "In the ocean's depths, where guardians roam.",
       "This block of sponge makes water its home.",
@@ -452,7 +452,7 @@
   },
   {
     "name": "Terracotta",
-    "image": "static/img/Terracotta.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Terracotta.webp",
     "hints": [
       "Colored clay block. Found in mesa biomes.",
       "Colored clay from mesa's ground.",
@@ -464,7 +464,7 @@
   },
   {
     "name": "Torch",
-    "image": "static/img/Torch.webp",
+    "image": "https://raw.githubusercontent.com/afnantime/minecraft-guessing/main/static/img/Torch.webp",
     "hints": [
       "In the dark of night, where shadows loom.",
       "This block of light dispels the gloom.",
